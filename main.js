@@ -33,4 +33,10 @@ palpites.textContent += palpiteUsuario + " ";
          baixoOuAlto.textContent = "esse palpite ta muito pierre";
       } 
    }
+
+contagemPalpites++;
+campoPalpite.value = "";
+campoPalpite.focus();
 }
+
+envioPalpite.addEventListener('click', verificarPalpite)
