@@ -46,6 +46,9 @@ function finalizarJogo() {
    envioPalpite.disabled = true;
    botaoReiniciar = document.createElement('button');
    document.body.appendChild(botaoReiniciar);
+   botaoReniciar.textContent = "Reniciar Jogo";
+   botaoReniciar.classList.add('botaoReiniar');
+   document.body.appendChild(BotaoReniciar);
    botaoReiniciar.addEventListener('click', reiniciarJogo);
 }
 
